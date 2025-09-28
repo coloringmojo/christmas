@@ -1,36 +1,9 @@
----
-layout: default
-title: "Coloring Mojo - Free Coloring Pages & Premium Bundles"
----
 
 # 🎨 Unleash Your Creativity with Coloring Mojo
 ### *Discover the Joy of Free Coloring Pages & Premium Collections*
 
 ---
 
-## 🚀 Latest Coloring Pages
-
-{% for post in site.posts limit:3 %}
-<div class="post-card">
-    <h3>🎯 <a href="{{ post.url }}" style="text-decoration: none; color: inherit;">{{ post.title }}</a></h3>
-    
-    <div class="post-meta">
-        ⭐ {{ post.rating }} • 📅 {{ post.date | date: "%b %d, %Y" }}
-    </div>
-    
-    {{ post.excerpt | strip_html | truncate: 150 }}
-    
-    <div style="margin-top: 1rem;">
-        <a href="{{ post.url }}" class="btn">Read More & Download →</a>
-    </div>
-</div>
-{% endfor %}
-
-<div style="text-align: center; margin: 2.5rem 0;">
-    <a href="/blog" class="btn btn-large">View All Coloring Pages →</a>
-</div>
-
----
 
 ## ✨ Why Artists Love Coloring Mojo
 
